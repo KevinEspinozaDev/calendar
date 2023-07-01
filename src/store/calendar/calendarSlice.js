@@ -4,9 +4,7 @@ export const calendarSlice = createSlice({
    name: 'calendar',
    initialState: {
       isLoadingEvents: true,
-      events: [
-         
-      ],
+      events: [],
       activeEvent: null,
    },
    reducers: {
